@@ -5,7 +5,7 @@ The input file, the temperate file and the output file can be changed only by ch
   
 There may still exist some bugs which may cause errors about the heap, but most of them can be avoided by simply reducing the macro definition of CUTOFF in MeshSimplification.cpp.  
   
-The vertex norm is required in this project. To those meshes whose vertex norm doesn't exist, one possible way is to run the following code to get the vertex norm.  
+The vertex normals are required in this project. To those meshes whose vertex normals don't exist, one possible way is to run the following code to get the vertex normals.  
 ```C++
 #include <OpenMesh/Core/IO/MeshIO.hh>
 #include <OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh>
